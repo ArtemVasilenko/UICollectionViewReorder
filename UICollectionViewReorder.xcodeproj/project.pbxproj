@@ -12,6 +12,7 @@
 		ACA902EA22B41503000FFD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA902E822B41503000FFD7A /* Main.storyboard */; };
 		ACA902EC22B41508000FFD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA902EB22B41508000FFD7A /* Assets.xcassets */; };
 		ACA902EF22B41508000FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA902ED22B41508000FFD7A /* LaunchScreen.storyboard */; };
+		ACA902F722B41728000FFD7A /* AbcCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA902F622B41728000FFD7A /* AbcCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ACA902EB22B41508000FFD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA902EE22B41508000FFD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA902F022B41508000FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA902F622B41728000FFD7A /* AbcCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbcCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				ACA902E422B41503000FFD7A /* AppDelegate.swift */,
 				ACA902E622B41503000FFD7A /* ViewController.swift */,
 				ACA902E822B41503000FFD7A /* Main.storyboard */,
+				ACA902F622B41728000FFD7A /* AbcCollectionViewCell.swift */,
 				ACA902EB22B41508000FFD7A /* Assets.xcassets */,
 				ACA902ED22B41508000FFD7A /* LaunchScreen.storyboard */,
 				ACA902F022B41508000FFD7A /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA902E722B41503000FFD7A /* ViewController.swift in Sources */,
+				ACA902F722B41728000FFD7A /* AbcCollectionViewCell.swift in Sources */,
 				ACA902E522B41503000FFD7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
