@@ -10,4 +10,7 @@ import UIKit
 
 class AbcCollectionViewCell: UICollectionViewCell {
     
+    
+    @IBOutlet weak var abcLabel: UILabel!
+    
 }

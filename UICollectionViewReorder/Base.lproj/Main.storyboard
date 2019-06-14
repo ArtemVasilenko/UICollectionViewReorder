@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collection View Controller-->
+        <!--My Collection View Controller-->
         <scene sceneID="9e1-M7-lYc">
             <objects>
-                <collectionViewController id="ieZ-x7-4X3" sceneMemberID="viewController">
+                <collectionViewController id="ieZ-x7-4X3" customClass="MyCollectionViewController" customModule="UICollectionViewReorder" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="mU5-M1-X7W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="RxH-r9-QKA">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="RxH-r9-QKA" customClass="AbcCollectionViewCell" customModule="UICollectionViewReorder" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -42,6 +42,9 @@
                                 </view>
                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="customSize" width="110" height="110"/>
+                                <connections>
+                                    <outlet property="abcLabel" destination="z4z-m3-y9a" id="e7A-60-rlK"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
